@@ -3,7 +3,7 @@ name: hola-mundo
 on: push
 
 jobs:
-  hola-mundo-jobs:
+  hola-mundo-job:
 
     runs:on: ububtu-latest
 
