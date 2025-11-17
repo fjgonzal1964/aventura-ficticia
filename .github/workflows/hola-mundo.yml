@@ -1,0 +1,13 @@
+name: hola-mundo
+
+on: push
+
+jobs:
+  hola-mundo-jobs:
+
+    runs:on: ububtu-latest
+
+    steps:
+      - name: check out repository code
+        uses: actions/checkout@v4
+      - run: echo "$(cat hola-mundo.txt)"
